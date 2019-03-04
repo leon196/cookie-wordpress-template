@@ -1,0 +1,72 @@
+/*
+Theme Name: Cookie Collective
+Theme URI: cookie.paris
+Description: Cookie Collective's theme
+Version: 1.0
+Author: Leon Denise
+Author URI: cookie.paris
+*/
+
+* { padding: 0 !important; margin: 0 !important; }
+
+html, body {
+	height:100%;
+	background: #000;
+	font-size: 1em;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	color: #fff;
+	margin: 0 !important;
+}
+
+a {
+	cursor: pointer;
+}
+
+a:active, a:link, a:visited {
+	color: #fff; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.cell {
+	height: 350px;
+}
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.entry-content {
+	position: relative;
+	margin: 20px auto;
+	width: 500px;
+}
+
+.image-cropper {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
