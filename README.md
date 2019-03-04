@@ -1,0 +1,1 @@
+# cookie-wordpress-template
